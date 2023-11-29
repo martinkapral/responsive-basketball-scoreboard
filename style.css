@@ -120,8 +120,8 @@ body {
   font-weight: 900;
   line-height: 35.893px;
 
-  margin-top: 60px;
-  margin-bottom: 21px;
+  margin-top: 45px;
+  margin-bottom: 25px;
 }
 
 p {
@@ -145,14 +145,20 @@ p {
 
 button {
   font-family: var(--ff-2);
+  font-size: 20px;
   color: var(--clr-secondary-grey);
   background-color: var(--clr-primary-blue);
   border: solid var(--clr-secondary-grey);
   border-radius: 5px;
   margin-top: 25px;
-  padding: 5px 10px 5px;
+  padding: 9px 14px 9px;
 
   cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--clr-secondary-grey);
+  color: var(--clr-primary-blue);
 }
 
 .rating {
