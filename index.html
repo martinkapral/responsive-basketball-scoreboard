@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://www.fontspace.com/cursed-timer-ulil-font-f29411"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@800;900&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="home">
+        <div class="home-guest">Home</div>
+        <div class="board">
+          <p id="score-home">0</p>
+        </div>
+        <div class="rating">
+          <button id="home1" onclick="homeAdd1()">+1</button>
+          <button id="home2" onclick="homeAdd2()">+2</button>
+          <button id="home3" onclick="homeAdd3()">+3</button>
+        </div>
+      </div>
+      <h1>:</h1>
+      <div class="guest">
+        <div class="home-guest">Guest</div>
+        <div class="board">
+          <p id="score-guest">0</p>
+        </div>
+        <div class="rating">
+          <button id="guest1" onclick="guestAdd1()">+1</button>
+          <button id="guest2" onclick="guestAdd2()">+2</button>
+          <button id="guest3" onclick="guestAdd3()">+3</button>
+        </div>
+      </div>
+    </div>
+    <!-- <h1>Reload the page for NEW GAME</h1> -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
