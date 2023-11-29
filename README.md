@@ -1,1 +1,1 @@
-# responsive-basketball-scoreboard
+https://martinkapral.github.io/responsive-basketball-scoreboard/
